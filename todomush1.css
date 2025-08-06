@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+ 
+  ul {
+    list-style: none;
+  }
+  
+
+  .h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-size: 2em;
+    color: rgb(210, 105, 30);
+  }
+
+  body {
+    background-color: rgba(252, 229, 210, 0.8);
+    color: rgb(210, 105, 30);
+    padding-top: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: lighter;
+  }
+  
+ 
+  #todo-list {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  
+  #todo-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border:1px solid rgb(210, 105, 30);
+    padding:10px;
+  }
+  
+  #new-item-text {
+    width: calc(100% - 100px);
+    padding-left:8px;
+    height:30px;
+    border-radius:4px;
+    border:none;
+  }
+  
+  #todo-form button {
+    width:80px;
+    height:auto; 
+    padding:6px;
+    margin-left:10px;
+    border:none;
+    border-radius:4px;
+    
+  }
+  
+  
+  #todo-list li {
+    display:flex; 
+    
+    align-items:center; 
+    
+    border:1px solid rgb(210, 105, 30);
+    
+    padding:10px; 
+    
+    margin-bottom:12px; 
+  
+    
+  }
+  
+  #todo-list li span {
+     flex-grow:1; 
+     word-break: break-word; 
+     font-family:cursive; 
+     font-size:16px; 
+  }
+  
+ 
+  #todo-list li button {
+     background-color:rgb(210, 105, 30); 
+     color:#fff; 
+     border:none; 
+     padding:6px 12px; 
+     border-radius:4px; 
+     cursor:pointer; 
+     margin-left:auto;
+     transition:.3s all ease-in-out;
+  }
+  
+  #todo-list li button:hover {
+      opacity:.8
+  }
+  
+  
+  button {
+      outline:none;
+      font-family:cursive;
+      font-size:13px;
+      transition:.3s all ease-in-out;
+      background-color: rgb(210, 105, 30);
+      color: #fff;
+  
+  }
+  button:hover{
+      opacity:.8
+  }
+  #slothwhispers {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    
+    height: 100vh; 
+  }
+  
+  
+/* * * {
+    margin: 0;
+    padding: 0;
+
+  }
+  ul,
+  li {
+    list-style:none
+  }
+  button {
+    border: 8px;
+    margin: 0;
+    margin-top: -5px
+  }
+  
+  body {
+    background-color: rgba(252, 229, 210, 0.799);
+    color: #fff;
+    padding-top: 150px;
+    font-family: cursive;
+    font-weight: lighter;
+  }
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(213, 172, 101);
+    padding: 30px;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  form {
+    
+    font-family: cursive;
+  }
+  input {
+    outline: none;
+  }
+  .ul {
+    width: 500px;
+  }
+  
+  .li {
+    border: 1px solid;
+    border-right: none;
+    height: 29px;
+    padding-top: 8px;
+    padding-left: 5px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+  .submit {
+    height: 30px;
+    background-color: rgb(231, 124,124);
+    border-width: 1px;
+    margin-top: -5px;
+    border-color: #fff;
+    font-size: 13px;
+    padding: 8px 4px;
+    cursor:pointer;
+    color: #ffffff;
+  }
+  .btn {
+    display: block;
+    margin-left: auto;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(231, 124, 124);
+    padding: 9px 11px;
+    transform: translateY(-25px);
+    
+
+  }
+  .btn2{
+    display: block;
+    margin-left: auto;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(231, 124, 124);
+    padding: 9px 11px;
+    transform: translateY(-25px);
+  }
+  .btn-friends{
+    display: flex;
+  }
+  .input {
+    width: 82%;
+    margin-bottom: 20px;
+    height: 29px;
+    padding-left: 8px;
+  }
+  .input::placeholder {
+    padding-left: 5px;
+  }
+  .container1 {
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(213, 172, 101);
+    padding: 30px;
+  }
+  .button1 {
+    display: block;
+    margin-left: auto;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(200, 16, 16);
+    padding: 9px 11px;
+    transform: translateY(-25px);
+
+  }
+  .none {
+    display: none !important;
+  } */
+  
