@@ -120,6 +120,66 @@
     
     height: 100vh; 
   }
+
+  /* попытка сделать стиль адаптивным под маленький экран телефона 
+  проверяла в режиме разработчика в хроме, так как в сафари не нашла где можно это сделать*/
+@media (max-width: 600px) {
+
+  .h1 {
+    font-size: 1.5em;
+    padding: 10px;
+  }
+
+  
+  #todo-form {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+
+  #new-item-text {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  
+  #todo-form button {
+    width: 100%;
+    padding: 8px;
+    margin-left:0;
+    margin-top:10px;
+  }
+
+  
+  #todo-list {
+    width: calc(100% - 20px);
+    padding:10px;
+    box-sizing:border-box;
+  }
+
+  
+  #todo-list li {
+    flex-direction: column;
+    align-items: stretch;
+    padding:8px;
+    font-size:14px; 
+  }
+
+  
+  #todo-list li button {
+    width:100%;
+    margin-top:10px;
+    padding:8px;
+  }
+
+  /* ленивец все равно не двигается никак! там видимо такая же ошибка как и в десктопной версии (может я его неправильно оформила как-то) Подскажи, пожалуйста, что с ним делать */
+  #slothwhispers {
+    height:auto; 
+    padding:20px; 
+  }
+}
   
   
 /* * * {
