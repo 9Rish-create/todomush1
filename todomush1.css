@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box; 
   }
-  
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
  
   ul {
     list-style: none;
@@ -115,11 +118,41 @@
   }
   #slothwhispers {
     display: flex;
-    justify-content: center; 
-    align-items: center;     
+    justify-content: center;
     
-    height: 100vh; 
   }
+  #sloth {
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+  }
+  .title-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: flex-start;
+  }
+  .title-p {
+    display: flex;
+    align-items: flex-start;
+    font-size: large;
+    font-weight: bold;
+  }
+  a {
+    color: rgb(118, 58, 15)
+  }
+  a:hover {
+    color: orange;
+  }
+
 
   /* попытка сделать стиль адаптивным под маленький экран телефона 
   проверяла в режиме разработчика в хроме, так как в сафари не нашла где можно это сделать*/
@@ -174,7 +207,7 @@
     padding:8px;
   }
 
-  /* ленивец все равно не двигается никак! там видимо такая же ошибка как и в десктопной версии (может я его неправильно оформила как-то) Подскажи, пожалуйста, что с ним делать */
+ 
   #slothwhispers {
     height:auto; 
     padding:20px; 

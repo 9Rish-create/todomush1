@@ -7,22 +7,73 @@
    <link rel="stylesheet" href="todomush1.css"/> 
   </head>
   <body>
-    <div class="h1">
-        <h1>Мой список дел</h1>
-    </div>
-    <ul id="todo-list"></ul>
+    <div class="conteiner">
+        <div class="h1">
+            <h1>Мой список дел</h1>
+        </div>
+        <ul id="todo-list"></ul>
 
-    <!-- Форма для добавления новых задач -->
-    <form id="todo-form" class="form">
-    <input type="text" id="new-item-text" placeholder="Новая задача" required />
-    <button type="submit">Добавить</button>
-    
+        <!-- Форма для добавления новых задач -->
+        <form id="todo-form" class="form">
+        <input type="text" id="new-item-text" placeholder="Новая задача" required />
+        <button type="submit">Добавить</button>
         
-    </form>
-     <!-- Картинка с ленивцем -->
-    <div id="slothwhispers">
-        <img src="bd327634ea8994edcbfb18de640ac7cf.jpg" alt="Ленивчик">
+            
+        </form>
     </div>
+    <!-- Cтатья о том, как заполнять туду лист, заодно план того, какие я дальше функции буду прописывать  -->
+    <div class="title">
+      <h2>Небольшая памятка о том, как эффктивно вносить дела в to-do list</h2>
+      <ul class="title-ul">
+        <div>
+          <li>
+            <p class="title-p">Записывайте конкретные задачи</p>
+          Формулируйте задачи ясно и точно, чтобы было понятно, что именно нужно сделать. Например, вместо "работа" напишите "отправить отчет по проекту".
+          </li>
+        </div>
+        <div>
+          <li>
+            <p class="title-p">Используйте короткие формулировки</p> 
+          Записывайте задачи кратко, чтобы быстро их просматривать и понимать.
+          </li>
+        </div>
+        <div>
+          <li>
+            <p class="title-p">Разделяйте большие задачи на подзадачи</p>
+          Если задача сложная, разбейте её на несколько мелких шагов — так будет проще выполнить.
+          </li>
+        </div>
+        <div>
+          <li>
+            <p class="title-p">Указывайте сроки выполнения</p>
+          Если есть дедлайн, отметьте его рядом с задачей или установите напоминание.
+          </li>
+        </div>
+        <div>
+          <li>
+            <p class="title-p">Обновляйте список регулярно</p>
+          Удаляйте выполненные задачи и добавляйте новые. Это поможет держать список актуальным и мотивировать к выполнению.
+          </li>
+        </div>
+        <div>
+          <li>
+            <p class="title-p">Приоритезируйте задачи</p>
+          Отмечайте важные или срочные дела, чтобы знать, что делать в первую очередь.
+          </li>
+        </div>
+        <div>
+          <li>
+            <p class="title-p"><a href="https://style.rbc.ru/life/5f270daf9a794750f93815af" class="RBK-link">Нажмите, если хотите больше узнать о планировании дел</a></p>
+          </li>
+        </div>
+
+      </ul>
+    </div>
+     <!-- Картинка с ленивцем -->
+        <div id="sloth" >
+          <img src="bd327634ea8994edcbfb18de640ac7cf.jpg" alt="Ленивчик" id="slothwhispers">
+        </div>
+  
   
 
     <script src="todomush1.js">

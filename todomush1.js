@@ -47,7 +47,7 @@ const todoItems = [
       renderList();
     }
   }
-  // Функция добавления картинки с ленивцем (вопрос - почему не получается изменить расположение картинки с ленивцем, хотя я прописала вроде бы правильный путь от нее до ее css?)
+  // Функция добавления картинки с ленивцем 
   function chekListLength() {
     const sloth = document.getElementById('slothwhispers');
     if (todoItems.length === 0) {
